@@ -5,14 +5,14 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Poppins', sans-serif;
+  --font-primary: 'arvo', ;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
-  --font-color: #ffffff;
+  --bg-color: #000000;
+  --font-color: #fff4c4;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
-  --header-shadow: #000 0px 0px 5px;
+  --accent-color: #ffbb00;
+  --header-shadow: rgb(255, 255, 255)px 5px;
 }
 
 * {
@@ -64,7 +64,7 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+  font-style: bold;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
@@ -141,17 +141,17 @@ section {
 }
 
 .countdown h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--);
   font-style: italic;
-  margin: 2rem 0;
+  margin: 0.5rem 0;
   font-size: 3.5rem;
   text-align: center;
 }
 
 .countdown p {
   font-size: 1.1rem;
-  font-family: var(--font-secondary);
-  margin-bottom: 2rem;
+  font-family: var(--);
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
@@ -170,14 +170,14 @@ section {
   }
   .wallet-btn {
     margin-left: 0;
-    padding: 1rem;
-    max-width: 8rem;
+    padding: 0.5rem;
+    max-width: 15rem;
   }
   .countdown h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .countdown p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
  
