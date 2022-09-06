@@ -96,11 +96,11 @@ color: blanchedalmond
 
 
 .menu  {
-    width: 0%;
+    width: -5%;
     background: rgb(0, 0, 0);
     list-style: none; 
-    margin: 5%;
-    padding: 0%;
+    margin: 0%;
+    padding: 0.5%;
 }
 
 .menu li {
@@ -132,7 +132,7 @@ header .container {
 }
 
 .menu {
-  display: inherit;
+  display: table;
   gap: 2em;
   align-items: center;
 }
@@ -161,10 +161,10 @@ header .container {
 }
 
 .wallet-btn {
-  border-radius: 5rem;
+  border-radius: 100rem;
   margin-left: 2rem;
   border-color: transparent;
-  width: 200px;
+  width: 195px;
   margin: 0% ;
   padding: 6px;
   
@@ -249,12 +249,12 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .menu {
     gap: 1rem;
   }
   .wallet-btn {
-    margin-left: 0;
+    margin-left: 5px;
     padding: 0.5rem;
     max-width: 9rem;
   
