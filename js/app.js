@@ -1,8 +1,37 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'CodeCats';
+const COLLECTION_NAME = 'SantorinniDantoreNFT';
 let editions = [];
 let dots = 1;
+let intro = document.querySelector('.intro');
+let logo = document.querySelector('.logo');
+let logospan = document.querySelectorAll('.logo-parts');
+
+ setTimeout(() => { 
+          logoSpan. ForEach((span, index) => { 
+             setTimeout(() => { 
+                     span.classList.add('active');
+             }, (index +1) * 100); 
+          }); 
+   }); 
+  
+
+
+setTimeout(() => { 
+  logoSpan. ForEach((span, index) => { 
+     setTimeout(() => { 
+             span.classList.remove('active');
+             span.classList.add('fade');
+     }, (span +1) * 50); 
+  }); 
+  }, 2000);
+
+  setTimeout(() => {
+    intro.style.top = '-100vh';
+  }, 2300);
+  
+
+  
 
 window.addEventListener('DOMContentLoaded', () => {
   const onboarding = new MetaMaskOnboarding();
@@ -91,6 +120,7 @@ function updateStatusText(isOwner, checking) {
   }
   dots = dots === 3 ? 1 : dots + 1;
 }
+
 
 function renderDots(dots) {
   let dotsString = '';

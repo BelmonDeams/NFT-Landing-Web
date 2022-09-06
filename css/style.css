@@ -25,7 +25,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: 100vh;
+  height: 50vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
@@ -39,6 +39,61 @@ body {
 }
 
 /* HEADER */
+
+.intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100vh;
+  display: flex; 
+  align-items:center;
+  justify-content: center; 
+  flex-direction: column;
+  z-index: 1; 
+  transition: 1s; 
+  background: hsl(39, 100%, 57%);
+}
+
+.intro img {
+  top: 150px; 
+  position: absolute; 
+}
+
+.intro p {
+ color: gray;
+ font-size: 1.6rem;
+ margin-top: 10px; 
+}
+
+
+.logo {
+font-size: 2.5rem; 
+color: blanchedalmond
+} 
+
+
+.logo parts {
+ position: relative; 
+ display: inline-block;
+ bottom: -20px;
+ opacity: 0;
+}
+
+.logo-parts.fade { 
+ bottom: 250px; 
+ opacity: 0;
+ transition: ease-in-out .5s; 
+}
+
+.content {
+ width: 100%;
+ padding: 50px; 
+ font-size: 2rem; 
+}
+
+
+
 
 .menu  {
     width: 0%;
