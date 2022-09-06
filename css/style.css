@@ -57,7 +57,7 @@ body {
 
 .intro img {
   top: 150px; 
-  position: absolute; 
+  position: static; 
 }
 
 .intro p {
@@ -122,16 +122,17 @@ display:inline-block;
 
 header {
   box-shadow: var(--header-shadow);
+  position:static;
 }
 
 header .container {
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: center;
+  justify-content: center;
   align-items: center;
 }
 
 .menu {
-  display: flex;
+  display: inherit;
   gap: 2em;
   align-items: center;
 }
@@ -165,14 +166,14 @@ header .container {
   border-color: transparent;
   width: 200px;
   margin: 0% ;
-  padding: 0px;
+  padding: 6px;
   
 }
 
 .hero-btn {
   border-radius: 4px;
-  font-size: 1.2rem;
-  padding: 1.5rem 3rem;
+  font-size: 1.0rem;
+  padding: 0.5rem 3rem;
 }
 
 /* COUNTDOWN SECTION */
