@@ -3,20 +3,18 @@ const TIMEOUT = 1000;
 const COLLECTION_NAME = 'SantorinniDantoreNFT';
 let editions = [];
 let dots = 1;
+let logo = document.querySelector('.intro img');
 let intro = document.querySelector('.intro');
-let logo = document.querySelector('.logo');
 let logospan = document.querySelectorAll('.logo-parts');
-
- setTimeout(() => { 
+window.addEventListener('DOMContentLoaded', () => { 
+setTimeout(() => { 
           logoSpan. ForEach((span, index) => { 
              setTimeout(() => { 
                      span.classList.add('active');
              }, (index +1) * 100); 
           }); 
    }); 
-  
-
-
+ 
 setTimeout(() => { 
   logoSpan. ForEach((span, index) => { 
      setTimeout(() => { 
@@ -29,14 +27,16 @@ setTimeout(() => {
   setTimeout(() => {
     intro.style.top = '-100vh';
   }, 2300);
-  
-
+}); 
+ 
   
 
 window.addEventListener('DOMContentLoaded', () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById('connectWallet');
   let accounts;
+  
+
 
   const updateButton = async () => {
     if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
@@ -160,4 +160,6 @@ async function fetchWithRetry(url)  {
     }
     return fetch_retry(url);
   });
+  
+  
 }
