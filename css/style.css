@@ -33,9 +33,9 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 450px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 4rem 2rem;
 }
 
 /* HEADER */
@@ -164,7 +164,7 @@ header .container {
   border-radius: 100rem;
   margin-left: 2rem;
   border-color: transparent;
-  width: 195px;
+  width: 50%;
   margin: 0% ;
   padding: 6px;
   
@@ -254,7 +254,7 @@ section {
     gap: 1rem;
   }
   .wallet-btn {
-    margin-left: 5px;
+    margin-left: 4px;
     padding: 0.5rem;
     max-width: 9rem;
   
