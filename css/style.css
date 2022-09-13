@@ -40,6 +40,38 @@ body {
 
 /* HEADER */
 
+.hero{ 
+  height: 100vh; 
+  width: 100%; 
+  background-image: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6)), var(--accent-color)
+  ; 
+  background-size: cover; 
+  background-position: center; 
+  }
+  nav{
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding-top: 40px; 
+  padding-left: 10%;
+  padding-right: 10%;
+  }
+  nav ul li{ 
+  list-style-type: none; 
+  display: inline-block; 
+  padding: 10px 20px;
+  }
+  
+  nav ul li a{ 
+  color: white; 
+  text-decoration: none; 
+  font-weight: bold; 
+  }
+  nav ul li a:hover{ 
+  color : #ffbb00; 
+  transition: .3s; 
+  }
+
 .intro {
   position: fixed;
   top: 0;
@@ -166,7 +198,7 @@ header .container {
   border-color: transparent;
   width: 50%;
   margin: 0% ;
-  padding: 6px;
+  padding: 15px;
   
 }
 
