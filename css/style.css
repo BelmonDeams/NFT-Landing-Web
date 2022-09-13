@@ -119,7 +119,7 @@ color: blanchedalmond
 }
 
 .content {
- width: 100%;
+ width: 20%;
  padding: 50px; 
  font-size: 2rem; 
 }
@@ -297,5 +297,10 @@ section {
   .countdown p {
     font-size: 1rem;
   }
+  .content {
+    float:left; 
+    width: 20%;
+    }
+    
 }
  
